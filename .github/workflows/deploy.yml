@@ -20,8 +20,8 @@ jobs:
           java-version: 11
 
       - name: go to back directory
-          run: cd back
-          shell: bash
+        run: cd back
+        shell: bash
 
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew # (6)
